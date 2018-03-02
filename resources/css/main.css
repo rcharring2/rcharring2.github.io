@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+
+a.mediaLink, a.pressLink, a.homeLink, a.mediaLink:visited, a.pressLink:visited, a.homeLink:visited {
+  color: #893021;
+  font-weight: bold;
+}
+
+a.mediaLink:hover, a.pressLink:hover, a.homeLink:hover {
+  color: #734d26;
+}
+
+a.navLink {
+  background-color: black;
+  color: white;
+  padding: .9em 3.125em;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+body {
+  width: 65%;
+  border: 2px solid black;
+  background: #dfbf9f;
+  position: relative;
+  margin: 0 auto;
+  font-size: 1em;
+  font-family: serif;
+}
+
+div.aboutParagraphs {
+  clear: both;
+}
+
+div.businessModel {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.brand{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.footerIcons{
+  margin-left: .5em;
+  margin-top: .5em; 
+}
+
+div.events {
+  clear: both;
+}
+
+div.main {
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 80%;
+}
+
+footer {
+  background: black;
+  color: white;
+  position: static;
+}
+
+footer p {
+  margin-bottom: 0;
+  margin-left: .5em;
+}
+
+header {
+  padding: 5px;
+  height: 15%;
+  background: white;
+  margin-bottom: 0px;
+}
+
+html {
+  background-image: url(../images/coffeebeans5.jpeg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+p.inlineP{
+  display: inline;
+}
+
+h2.inlineH2{
+  display:inline;
+}
+
+img.headPic {
+  height: 90%;
+  width: 75%
+}
+
+img.resize {
+  float: left;
+  height: 100%;
+  margin-right: .25em;
+  width: 20%
+}
+
+img.businessModel {
+  height: 10em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  width: auto;
+}
+
+img.madisonPic, img.contactPic, img.edPic {
+  height: 35%;
+  width: auto;
+}
+
+img.pressPic {
+  margin: auto;
+  height: auto;
+  width: 80%;
+}
+
+img.homePageReel {
+  width: 100%;
+  height: auto;
+}
+
+img.footerReel {
+  width: 100%;
+  height: 20%;
+}
+
+img.mediaIcon {
+  width: 1em;
+  height: 1em;
+}
+
+/*Horizontal Nav bar*/
+nav {
+  clear: both;
+  width: 100%;
+  margin-bottom: 2.8em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+  height: 30px;
+  text-align: center;
+  background: black;
+}
+
+span.first {
+  font-size: 2em;
+  font-weight: bold; 
+}
+
+div.tile {
+  width: 45%;
+  background:white;
+}
+
+div.main2 {
+  float:left;
+  overflow: hidden; 
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 80%;   
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    background-image: none;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 90%;
+  }
+  a.navLink {
+    padding: .5em .5em;
+    white-space: normal;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    height: 10%;
+  }
+  a.navLink {
+    padding: .5em .2em;
+    font-size: x-small;
+  }
+  img.businessModel {
+    height: 5em;
+    width: auto;
+  }
+  img.footerReel {
+    height: 10%;
+  }
+  img.contactPic {
+    height: 25%;
+  }
+  #moreMargin {
+    margin-bottom: 7em;
+  }
+}

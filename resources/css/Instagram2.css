@@ -1,0 +1,67 @@
+ #instafeed{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#instafeed div{
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 2.5em;
+	margin-bottom: 1em;
+	width: 17em;
+	height: 17em;
+}
+
+#instafeed div:hover .post{
+	opacity: 1;
+
+}
+
+#instafeed img{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	z-index: 4;
+	height: 17em;
+	width: 17em;
+}
+
+#instafeed .post{
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition:all 0.45s ease-in-out;
+	-moz-transition:all 0.45s ease-in-out;
+	-o-transition:all 0.45s ease-in-out;
+	-ms-transition:all 0.45s ease-in-out;
+	transition:all 0.45s ease-in-out;
+	margin: 0px;
+}
+#instafeed .cover{
+	background-color: rgba(0,0,0,0.65);
+	height: 17em;
+	width: 17em;
+	z-index: 5;
+	position: absolute;
+	margin: 0px;
+}
+
+#instafeed .post-text{
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	width: 17em;
+	height: 17em;
+	text-align: left;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#instafeed p{
+	margin: 0px;
+	font-size: .9em;
+	line-height: 1.2;
+}
